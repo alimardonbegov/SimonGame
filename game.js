@@ -42,7 +42,7 @@ function checkAnswer(currentLevel) {
     }
   } else {
     $("body").addClass("game-over");
-    $("h1").text("Game over, Press Any Key to Restart or Click Here");
+    $("h1").text("Game over, Press Any Key or Click Here to Restart");
 
     playWrondSound();
     setTimeout(function () {
